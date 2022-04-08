@@ -18,6 +18,7 @@
       "url": "https://www.venmo.com/adumesny"
     }
   ],
+  "install": "yarn build",
   "scripts": {
     "build": "yarn --no-progress && rm -rf dist/* && grunt && yarn build:es6 && yarn build:es5 && yarn doc",
     "build:es6": "webpack && tsc --stripInternal",
